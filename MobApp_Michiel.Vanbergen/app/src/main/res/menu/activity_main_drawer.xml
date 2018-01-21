@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_edit_username"
+                android:icon="@drawable/ic_person"
+                android:title="Edit username" />
+        </menu>
+    </item>
+    <item android:title="Add contact">
+        <menu>
+            <item
+                android:id="@+id/nav_camera"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Scan code" />
+            <item
+                android:id="@+id/nav_qr"
+                android:icon="@drawable/ic_menu_qr"
+                android:title="Show code" />
+        </menu>
+    </item>
+    <item android:title="Sign out">
+        <menu>
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@drawable/ic_exit"
+                android:title="Sign out" />
+        </menu>
+    </item>
+
+</menu>

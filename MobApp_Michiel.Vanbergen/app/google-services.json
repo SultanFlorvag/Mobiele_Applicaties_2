@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "983487871774",
+    "firebase_url": "https://ittools-michielvanbergen.firebaseio.com",
+    "project_id": "ittools-michielvanbergen",
+    "storage_bucket": "ittools-michielvanbergen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983487871774:android:da7ad8687839ead3",
+        "android_client_info": {
+          "package_name": "com.example.michiel.mobapp_michielvanbergen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983487871774-hotlelgmj8829580o37s8f4c3q7oj5mi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.michiel.mobapp_michielvanbergen",
+            "certificate_hash": "b832a41d54239143fec5f8afe2bde50bf14538ed"
+          }
+        },
+        {
+          "client_id": "983487871774-e3uln9ct22kihsjl16vaeghpkbjjgkhk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.michiel.mobapp_michielvanbergen",
+            "certificate_hash": "ad48bd6990ad8fb582b4018c436aabab4ddb08f6"
+          }
+        },
+        {
+          "client_id": "983487871774-9hlpbht5lm4vsktieh9fi6a4o37qi4kc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe5urajhOq2j1YYMeY_o5WxiItt83HQzM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983487871774-9hlpbht5lm4vsktieh9fi6a4o37qi4kc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

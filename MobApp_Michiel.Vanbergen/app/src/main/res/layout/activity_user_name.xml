@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#01579b"
+    tools:context="com.example.michiel.mobapp_michielvanbergen.UserNameActivity">
+
+    <EditText
+        android:id="@+id/FirstNameEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#FFF"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/EmailLabel"
+        app:layout_constraintTop_toBottomOf="@+id/EmailLabel" />
+
+    <EditText
+        android:id="@+id/LastNameEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFF"
+        android:inputType="text"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="@+id/FirstNameEditText"
+        app:layout_constraintStart_toStartOf="@+id/PasswordLabel"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordLabel" />
+
+    <Button
+        android:id="@+id/ConfirmButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="#03a9f4"
+        android:text="@string/confirm"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="@+id/LastNameEditText"
+        app:layout_constraintStart_toStartOf="@+id/LastNameEditText"
+        app:layout_constraintTop_toBottomOf="@+id/LastNameEditText" />
+
+    <TextView
+        android:id="@+id/EmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="175dp"
+        android:text="@string/first_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/PasswordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/last_name"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/FirstNameEditText"
+        app:layout_constraintTop_toBottomOf="@+id/FirstNameEditText" />
+
+</android.support.constraint.ConstraintLayout>
